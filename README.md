@@ -6,15 +6,15 @@ A small repo of ported libraries for the SparkCore along with a "how to" on port
 How to: Link Coming Soon
 
 # Library List
-* Security
-* Motor Control
-* Gas Sensing
-* Displays
-* LED Control
-* Wireless / Networking
-* Controls
-* Accelerometer/Compass/Gyro/Barometer
-* NFC
+* [Security](#security)
+* [Motor Control](#motor-control)
+* [Gas Sensing](#gas-sensing)
+* [Displays](#displays)
+* [LED Control](#led-control)
+* [Wireless / Networking](#wireless--networking)
+* [Controls](#controls)
+* [Accelerometer/Compass/Gyro/Barometer](#security)
+* [NFC](#nfc)
 
 ## Security
 ### Spark TOTP - [GitHub](https://github.com/harrisonhjones/SparkTOTP)
