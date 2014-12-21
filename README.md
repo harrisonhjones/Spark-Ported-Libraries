@@ -3,6 +3,12 @@ Porting Libraries for the Spark Core
 
 This repo includes a (work in progress) how-to on porting non-Spark C/C++ (Arduino, Teensy, etc) libraries to the SparkCore and a list of ported libraries.
 
+## Contributing 
+If you'd like to contribute to either the how-to or the library list feel free to either
+
+* Fork this repo, make changes, and issue a pull request
+* Submit an issue and I'll try to get on it asap!
+
 ## Library List
 The library list can be found [**here**](https://github.com/harrisonhjones/Spark-Ported-Libraries/blob/master/LIBRARY-LIST.md)
 
