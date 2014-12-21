@@ -75,9 +75,9 @@ To fix replace:
 with 
 
 	#ifdef __AVR__
-	 #include <avr/pgmspace.h>
+	#include <avr/pgmspace.h>
 	#else
-	 #define pgm_read_byte(addr) (*(const unsigned char *)(addr))
+	#define pgm_read_byte(addr) (*(const unsigned char *)(addr))
 	#define pgm_read_word(addr) (*(const unsigned short *)(addr)))
 	#endif
 
