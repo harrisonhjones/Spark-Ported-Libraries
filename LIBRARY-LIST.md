@@ -36,6 +36,10 @@ How to: Link Coming Soon
 
 > Adafruit_SSD1306 library ported for Spark by Paul Kourany, Mar 18, 2014
 
+### Adafruit HX8357 - [GitHub](https://github.com/ScruffR/adafruit_hx8357)
+
+> Adafruit_HX8357 library ported for Spark, Nov 2014
+
 ## LED Control
 ### LPD6803 Library - [GitHub](https://github.com/pkourany/LPD6803-RGB-Pixels-Library)
 
@@ -54,6 +58,10 @@ How to: Link Coming Soon
 ### ukf-spark-library - [GitHub](https://github.com/mumblepins/ukf-spark-library)
 
 > Unscented Kalman Filter Library for the Spark core
+
+### touch_4wire -  [GitHub](https://github.com/ScruffR/touch_4wire)
+
+> Ported Adafruit library for resistive 4-wire touch screen support
 
 ## Accelerometer/Compass/Gyro/Barometer
 ### MMA8452Q Library - [GitHub](https://github.com/DanDawson/MMA8452-Accelerometer-Library-Spark-Core)
