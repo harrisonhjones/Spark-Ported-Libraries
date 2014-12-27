@@ -36,7 +36,7 @@ How to: Link Coming Soon
 
 > Adafruit_SSD1306 library ported for Spark by Paul Kourany, Mar 18, 2014
 
-### Adafruit HX8357 - [GitHub](https://github.com/ScruffR/adafruit_hx8357)
+### Adafruit HX8357 - [GitHub](https://github.com/ScruffR/adafruit_hx8357) & WebIDE
 
 > Adafruit_HX8357 library ported for Spark, Nov 2014
 
@@ -59,7 +59,7 @@ How to: Link Coming Soon
 
 > Unscented Kalman Filter Library for the Spark core
 
-### touch_4wire -  [GitHub](https://github.com/ScruffR/touch_4wire)
+### touch_4wire -  [GitHub](https://github.com/ScruffR/touch_4wire) & WebIDE
 
 > Ported Adafruit library for resistive 4-wire touch screen support
 
