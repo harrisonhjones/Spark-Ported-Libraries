@@ -78,7 +78,9 @@ with
 	#include <avr/pgmspace.h>
 	#else
 	#define pgm_read_byte(addr) (*(const unsigned char *)(addr))
-	#define pgm_read_word(addr) (*(const unsigned short *)(addr)))
+	#define pgm_read_byte_near(addr) (*(const unsigned char *)(addr))
+	#define pgm_read_word(addr) (*(const unsigned short *)(addr))
+	#define pgm_read_word_near(addr) (*(const unsigned short *)(addr))
 	#endif
 
 ### Notes
