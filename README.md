@@ -10,7 +10,7 @@ If you'd like to contribute to either the how-to or the library list feel free t
 * Submit an issue and I'll try to get on it asap!
 
 ## Library List
-The library list can be found [**here**](https://github.com/harrisonhjones/Spark-Ported-Libraries/blob/master/LIBRARY-LIST.md)
+The library list can be found [**here**](LIBRARY-LIST.md)
 
 ## Porting Arduino Libraries
 ### Making #include "Arduino.h" portable

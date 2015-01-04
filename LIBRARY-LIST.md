@@ -34,6 +34,9 @@ How to: Link Coming Soon
 >
 > ### Adafruit HX8357 - [GitHub](https://github.com/ScruffR/adafruit_hx8357) & WebIDE
 > Adafruit_HX8357 library ported for Spark, Nov 2014
+>
+> ### SparkFun Micro OLED Breakout - [GitHub](https://github.com/liyanage/Micro_OLED_Breakout)
+> SFE_MicroOLED library ported for Spark (SPI mode only), Dec 2015
 
 ## LED Control
 > ### LPD6803 Library - [GitHub](https://github.com/pkourany/LPD6803-RGB-Pixels-Library)
