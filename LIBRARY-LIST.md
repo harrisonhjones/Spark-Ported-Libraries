@@ -41,7 +41,8 @@ How to: Link Coming Soon
 ## LED Control
 > ### LPD6803 Library - [GitHub](https://github.com/pkourany/LPD6803-RGB-Pixels-Library)
 > A library for use with LED Pixels using the LPD6803 Controller chip
-
+> ### LEDEffect Library - [GitHub](https://github.com/harrisonhjones/LEDEffect/)
+> A simple library for different LED effects
 ## Wireless / Networking
 > ### SparkCore-RF24 - [GitHub](https://github.com/technobly/SparkCore-RF24)
 > An Implementation of ManiacBug's RF24 Library for the Spark Core
