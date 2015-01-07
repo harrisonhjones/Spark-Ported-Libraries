@@ -59,6 +59,7 @@ So for example
 	SPI.h
 	WiFi.h
 	Wire.h
+	...
 	
 	
 ### Getting the User LED to work
