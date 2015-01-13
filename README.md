@@ -112,4 +112,6 @@ Include
 at the top of your main .h or .ino file
 
 ### More to come!
-Special thanks to [peekay123](https://community.spark.io/users/peekay123). 
+Special thanks to:
+ * [peekay123](http://community.spark.io/users/peekay123)
+ * [ScruffR](http://community.spark.io/users/scruffr)
