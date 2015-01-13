@@ -100,5 +100,16 @@ with
 ### Notes
 This will not fix libraries which need to WRITE to flash memory.
 
+### F Macro is Undefined
+#### Common Problem
+The `F()` macro in Arduino-land places string between the `(` and `)` into flash memory. Such a macro doesn't exist in the Spark IDE
+
+### Solution
+Include 
+
+    #define F(x) ((const char*)(x))
+
+at the top of your main .h or .ino file
+
 ### More to come!
 Special thanks to [peekay123](https://community.spark.io/users/peekay123). 
