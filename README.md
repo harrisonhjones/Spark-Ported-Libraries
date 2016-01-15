@@ -82,20 +82,11 @@ simply change it to
 ### Solution
 Because the microcontroller at the heart of an Arduino, an AVR, has separate program memory and data memory spaces there are special functions to read and write these memory spaces. On the SparkCore's microcontroller, a STM32, there is no need for those same functions because the memory space is unified.
 
-To fix replace:
+To fix just remove/comment this line:
 
 	#include <avr/pgmspace.h>
 
-with 
-
-	#ifdef __AVR__
-	#include <avr/pgmspace.h>
-	#else
-	#define pgm_read_byte(addr) (*(const unsigned char *)(addr))
-	#define pgm_read_byte_near(addr) (*(const unsigned char *)(addr))
-	#define pgm_read_word(addr) (*(const unsigned short *)(addr))
-	#define pgm_read_word_near(addr) (*(const unsigned short *)(addr))
-	#endif
+since these macros are alreay substituted with dummy expressions just work.
 
 ### Notes
 This will not fix libraries which need to WRITE to flash memory.
@@ -105,11 +96,8 @@ This will not fix libraries which need to WRITE to flash memory.
 The `F()` macro in Arduino-land places string between the `(` and `)` into flash memory. Such a macro doesn't exist in the Spark IDE
 
 ### Solution
-Include 
+Just ignore this, since there is a substitute for this too.
 
-    #define F(x) ((const char*)(x))
-
-at the top of your main .h or .ino file
 
 ### More to come!
 Special thanks to:
